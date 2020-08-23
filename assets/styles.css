@@ -1,0 +1,54 @@
+ @font-face {
+  font-family: 'Modern No. 20';
+  src: url('fonts/Modern-Regular.woff2') format('woff2'),
+      url('fonts/Modern-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+      h1 {
+        background-image: url("photos/1.jpg");
+        color: rgb(204, 138, 125);
+        font-family: 'Modern No. 20';
+        font-size: 350px;
+        max-width: 800px;
+        margin: 250px;     
+      }
+        
+      nav {
+        background-image: url("photos/1.jpg");
+        color: rgb(204, 138, 125);
+        font-size: 30px;
+        max-width: 800px;
+        margin: 0;
+      }
+
+      body {
+        background: white;
+        color: rgb(153, 153, 153);
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 40px;
+        max-width: 600px;
+        margin: 40px;
+      }
+            
+      h2 {
+        background: white;
+        color: rgb(204, 138, 125);
+        font-size: 100px;
+        max-width: 800px;
+        margin: 0;
+      }
+
+      ul {
+        background: white;
+        color: rgb(153, 153, 153);
+        font-size: 30px;
+        max-width: 800px;
+        margin: 0;
+      }
+      #margin-h2 {
+        margin: 100px;
+        max-width: 500px;
+      }
