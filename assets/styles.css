@@ -7,7 +7,7 @@
       }
       @font-face {
         font-family: 'Redaction';
-        src: url('fonts/Redaction-Regular.woff2') format('woff2'),
+        src: url('fonts/Redaction-Regular.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -32,6 +32,7 @@
         width: 1200px;
         align-items: center;
         justify-content: center;
+        
       } 
 
       .child {
@@ -51,10 +52,15 @@
         background-repeat: no-repeat;
         color:white;
         font-family: 'Redaction';
-        font-size: 350px;
-        /* max-width: 800px; */
-        margin-left: 800px;  
-        letter-spacing: 20px;   
+        font-style: normal;
+        font-weight: normal;
+        font-size: 400px;
+        line-height: 480px;
+
+      /* identical to box height */
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: white;  
       }
         
       nav {
@@ -70,7 +76,7 @@
         color: rgb(153, 153, 153);
         font-family: 'Fira Sans', sans-serif;
         font-size: 40px;
-        max-width: 600px;
+        /* max-width: 600px; */
         margin: 40px;
       }
             
