@@ -12,34 +12,42 @@
         font-style: normal;
         font-display: swap;
       }
+      @font-face {
+        font-family: 'Gilroy_Light';
+        src: url('fonts/Gilroy_Light.woff'); format('woff')
+        src: url('fonts/Gilroy_Light.woff2'); format('woff2')
+      
+      }
 
       .parent {
         padding: 0px;
         display: flex;
-        height: 720px;
-        width: 1440px;
+        height: 100vh;
         align-items: flex-end;
         justify-content: flex-end;
         flex-direction: row;
         background-image: url("photos/1\ страница.jpg");
+        position: relative;
       
       }
 
-      .child1 {
+      .child {
         border: 1px solid black;
-        display: flex;
-        height: 400px;
-        width: 1200px;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0%;
         
       } 
 
-      .child {
+      .child2 {
         border: 1px solid black;
-        height: 50px;
-        width: 500px;
-        margin-right: 45px;
+        
+        
       }
 
       .child2 + .child2 {
@@ -58,26 +66,25 @@
         line-height: 480px;
 
       /* identical to box height */
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: white;  
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: white;  
       }
         
       nav {
-        /* background: white; */
         color: white;
         font-size: 30px;
-        max-width: 800px;
+        margin: 0%;
         
       }
 
       body {
         background: white;
         color: rgb(153, 153, 153);
-        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Gilroy_Light';
         font-size: 40px;
         /* max-width: 600px; */
-        margin: 40px;
+        margin: 0px;
       }
             
       h2 {
@@ -88,7 +95,7 @@
         margin: 0;
       }
 
-      ul {
+      .ul {
         background: white;
         color: rgb(153, 153, 153);
         font-size: 30px;

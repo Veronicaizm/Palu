@@ -1,84 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-      *
-       {
-        box-sizing: border-box;
-        /* border: 2px solid black; */
-        max-width: 1920px;
-        max-height: 1080px;
-        background: #F5A899;
-    @font-face {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      @font-face {
         font-family: 'Redaction';
         src: url('assets/fonts/Redaction-Regular.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
-        /* font-display: swap; */
+        
       }
-    @font-face {
+      @font-face {
         font-family: 'Gilroy';
-        src: url('assets/fonts/Gilroy_Light.woff') format('woff');
-        rc: url('assets/fonts/Gilroy_Light.woff2') format('woff2');
+        src: url('assets/fonts/Gilroy_Light.woff'); format('woff')
+        src: url('assets/fonts/Gilroy_Light.woff2'); format('woff2')
+      
+      }
+      
+      body {
+        background: #F5A899;
+        /* position: relative; */
+      }
+      .PALU {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Redaction';
+        font-size: 400px;
+        /* line-height: 480px; */
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: white;
+        }
+      .youpalu {
+        position: absolute; 
+        left: 50%;
+        top: 75%;
+        transform: translate(-75%, -50%); 
+        font-family: 'Gilroy';
         font-style: normal;
         font-weight: 300;
+        font-size: 35px;
+        line-height: 46px;
+        color: #926259;
       }
-    .parent {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;      
-      margin: 0px;
-    }
-    .child {
-      margin: 0px;
-      
-    }
-      
-    h1 {
-      position: absolute;
-      width: 1066px;
-      height: 480px;
-      left: calc(50% - 1066px/2 + 10px);
-      top: calc(50% - 480px/2);
-     
-      font-family: 'Redaction';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 400px;
-      line-height: 480px;
-
-      /* identical to box height */
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: white;
-    }
-    p {
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 40px;
-      line-height: 46px;
-      color: #926259;
-
-      font-family: Gilroy;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 40px;
-      line-height: 46px;
-      color: #926259;
-    }
-  </style>
+    </style>
 </head>
-<body class="parent">
-  <header class="child">
-    <h1>PALU</h1>
-    <div>
-      <p>&#64;youpalu</p>
-    </div>
-  </header>
+<body>
+    <div class="PALU">PALU</div>
+    <div class="youpalu">&#64;youpalu</div>
 </body>
 </html>
