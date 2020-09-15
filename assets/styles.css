@@ -118,7 +118,7 @@ q:before, q:after {
         margin-right: 40px;
         margin-bottom: 0px;
         position: relative;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       
       }
       .child3 {
@@ -170,7 +170,7 @@ q:before, q:after {
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 100vh;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
@@ -325,7 +325,7 @@ q:before, q:after {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
         margin-bottom: 0px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
       
       .div8 { 
@@ -378,7 +378,7 @@ q:before, q:after {
         margin-right: 40px;
         margin-bottom: 0px;
         position: relative;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
 
       .img {
@@ -420,7 +420,7 @@ q:before, q:after {
         margin-right: 40px;
         margin-bottom: 0px;
         position: relative;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
       
       .div15 {
@@ -518,7 +518,7 @@ q:before, q:after {
         margin-bottom: 0px;
         position: relative;
         color: white;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
       
       .div16 {
