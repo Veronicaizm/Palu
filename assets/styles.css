@@ -96,14 +96,32 @@ q:before, q:after {
         justify-content: flex-end;
         flex-direction: row;
         position: fixed; 
-        margin-right: 40px;
+        right: 0;
+        margin: 0 40px 0 0;
         /* width: 20%; */
-        list-style: none;     
+        list-style: none;
+        z-index: 100;     
         
       }
 
       .li1 + .li1 {
-        margin-left: 47px;
+        /* margin-left: 47px; */
+        margin-left: 25px;
+      }
+
+      .li1 {
+        transform: color 0.8s ease;
+        padding: 20px 0 20px 0;
+        
+      }
+      .li1:hover {
+        /* color: black; */
+        /* color: rgb(204, 138, 125); */
+        color: #C16D5D ;
+      }
+
+      .li1:active {
+        transform: scale(1.1);
       }
       .parent2 {
         display: flex;
@@ -450,6 +468,41 @@ q:before, q:after {
         margin: 0%;
       }
 
+      .parent7 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        height: 100vh;
+        /* height: 65rem; */
+        margin-top: 12.5rem;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+        position: relative;
+        border: 1px solid black;
+        min-width: 1440px;
+        overflow: auto;
+      }
+      .image4 {
+        max-height: 100%;
+        /* width: 544px;
+        height: 606px; */
+
+      }
+      /* .image5 {
+        width: 544px;
+        height: 606px;
+      }
+      .image6 {
+        width: 544px;
+        height: 606px;
+      }
+      .image7 {
+        width: 544px;
+        height: 606px;
+      } */
+
       h1 {
         /* background-image: url("photos/1\ страница.jpg"); */
         background-size: cover; 
@@ -505,6 +558,9 @@ q:before, q:after {
         margin: 6.2rem;
         max-width: 43.2rem;
       }
+
+     
+
       footer {
         background-color: rgb(204, 138, 125);
         display: flex;
@@ -527,6 +583,10 @@ q:before, q:after {
         justify-content: flex-start;
         flex-direction: column;
         width: 38.9rem;
+        /* max-height: 900px; */
+        position: absolute;
+        bottom: 0%;
+        top: 0;
       }
 
       .div17 {
@@ -537,6 +597,13 @@ q:before, q:after {
         bottom: 40px;
         /* top: calc(2 / 7* 100%); */
       }
+      .div18 {
+        /* display: flex;
+        max-height: 100vh; */
+        position: absolute;
+        bottom: 40px;
+      }
+
 
       .img10 {
         width: 100%;
