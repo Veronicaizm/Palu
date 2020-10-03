@@ -55,13 +55,17 @@ q:before, q:after {
         font-style: normal;
         font-display: swap;
       }
-      @font-face {
+      /* @font-face {
         font-family: 'Gilroy_Light';
         src: url('fonts/Gilroy_Light.woff'); format('woff')
         src: url('fonts/Gilroy_Light.woff2'); format('woff2')
         font-weight: 300;
         font-size: 3rem;
         line-height: 3.5rem;
+      } */
+
+      .col-0 {
+        width: calc(0.5 / 20 * 100vw);
       }
 
       .col-1 {
@@ -126,6 +130,67 @@ q:before, q:after {
       .col-20 {
         width: calc(20 / 20 * 100vw);
       }
+
+      nav {
+        /* color: white; */
+        font-size: 2.5rem;
+        margin: 0%;
+        
+      }
+
+      @media (max-width: 768px) {
+        nav {
+          font-size: 4rem;
+        }
+      }
+
+      body {
+        background: white;
+        color: rgb(153, 153, 153);
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2.5rem;
+        margin: 0;
+                   
+      }
+            
+      h2 {
+        color: rgb(204, 138, 125);
+        /* font-size: 6.2rem; */
+        font-size: 9.4rem;
+        margin-bottom: 6rem;
+        margin-top: 0%;
+        line-height: 10rem;
+      }
+
+      @media (max-width: 768px) {
+        h2 {
+          font-size: 12rem;
+          margin-bottom: 10rem;
+          line-height: 13rem;
+        }
+      }
+
+      h3 {
+        margin-top: 0%;
+        margin-bottom: 3.7rem;
+        font-size: 4rem;
+      }
+
+      @media (max-width: 768px) {
+        h3 {
+          font-size: 6rem;
+          margin-bottom: 7rem;
+        }
+      }
+
+      .ul {
+        background: white;
+        color: rgb(153, 153, 153);
+        font-size: 3rem;
+        max-width: 80rem;
+        margin: 0;
+      }
+
       .parent {
         padding: 0;
         display: flex;
@@ -135,9 +200,9 @@ q:before, q:after {
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        background-image: url("photos/1\ страница.jpg");
+        background-image: url("photos/1920.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        /* background-size: cover; */
         background-position: center;
         position: relative;
         margin: 0;
@@ -157,7 +222,7 @@ q:before, q:after {
         
       } 
       h1 {
-        color:white;
+        color:rgb(204, 138, 125);
         font-family: 'Redaction';
         font-style: normal;
         font-weight: normal;
@@ -165,15 +230,18 @@ q:before, q:after {
         line-height: 48rem;
         letter-spacing: 0.05em;
         text-transform: uppercase;
-        color: white;  
-        
+      }
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 45rem;
+        }
       }
 
       .child2 {
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
         position: fixed; 
         right: 0;
         margin: 0 4rem 0 0;
@@ -181,20 +249,29 @@ q:before, q:after {
         z-index: 100;     
         
       }
+      @media (max-width: 768px) {
+        .child2 {
+          margin: 0 4rem 0 0;
+        }
+      }
+      .colorwhite {
+        color: white;
+      }
 
       .li1 + .li1 {
-        margin-left: 2.5rem;
+        margin: 0;
       }
 
       .li1 {
         transform: color 0.8s ease;
-        padding: 2rem 0 2rem 0;
+        padding: 0;
         
       }
       .li1:hover {
         /* color: black; */
-        /* color: rgb(204, 138, 125); */
-        color: #C16D5D ;
+        color: rgb(204, 138, 125);
+        text-decoration: none;
+        /* color: #C16D5D ; */
       }
 
       .li1:active {
@@ -219,33 +296,7 @@ q:before, q:after {
       .col-55 {
         width: calc(5 / 20 * 100vw);
       }
-
-      @media (max-width: 768px) {
-        .parent2 {
-          margin-top: 10rem;
-          margin-left: 2rem;
-          margin-right: 2rem;
-        }
-
-        .col-77 {
-          width: calc(12 / 20 * 100vw);
-        }
-
-        .divimg {
-          display: none;
-        }
-
-        /* .child4 {
-          max-width: calc(7 / 20 * 100vw);
-          position: relative;
-          right: 0; */
-        }
-
-        /* .col-55 {
-          width: calc(7 / 20 * 100vw); */
-        }
-      }
-      
+          
       .divimg {
         height: 73.5rem;
         position: relative;
@@ -265,8 +316,55 @@ q:before, q:after {
         top: 13.5rem;
         width: 100%;
       }
-      
-      
+
+      .image6 {
+        display: none;
+        height: 76rem;
+      }
+
+      .image7 {
+        width: 100%;
+      }
+
+
+      @media (max-width: 768px) {
+        .parent2 {
+          height: 118rem;
+          
+        }
+
+        body {
+          font-size: 4rem;
+        }
+
+        .col-77 {
+          width: calc(10 / 20 * 100vw);
+        }
+        .col-55 {
+          width: calc(8 / 20 * 100vw);
+        }
+
+        .divimg {
+          display: none;
+        }
+
+        .child6 {
+          top: 18rem;
+        }
+        .h21 {
+          margin-left: calc(2 / 20 *100vw);
+        }
+        .div10 {
+          display: none;
+        }
+        .div11 {
+          width: calc(7 / 20 * 100vw);
+        }
+        .div12 {
+          width: calc(4 / 20 * 100vw);
+        }
+      }
+  
       .parent3 {
         display: flex;
         flex-direction: row;
@@ -280,7 +378,9 @@ q:before, q:after {
       }
      
       .h33 {
-        margin-top: 15rem;
+        position: absolute;
+        top: 16rem;
+        right: 4rem;
       }
       
       .image {
@@ -290,6 +390,44 @@ q:before, q:after {
         margin-top: 8rem;
         position: absolute;
         bottom: 7rem;
+        font-size: 2rem;
+        right: 4.3rem;
+      }
+
+      @media (max-width: 768px) {
+        .parent3 {
+          height: 100rem;
+
+        }
+        
+        .image6 {
+          display: block;
+        }
+
+        .image5 {
+          display: none;
+        }
+        .p {
+          font-size: 3rem;
+          width: calc(18 / 20 * 100vw);
+          position: absolute;
+          left: 0;
+          bottom: 3rem;
+        }
+        .h22 {
+          margin-left: calc(2 / 20 * 100vw);
+        }
+
+        .h33 {
+          position: absolute;
+          top: 23rem;
+          right: 25rem;
+        }
+
+        .p3 {
+          margin-bottom: 7rem;
+        }
+
       }
       
       .parent4 {
@@ -327,6 +465,31 @@ q:before, q:after {
         bottom: 0%;
       }
 
+      @media (max-width: 768px) {
+        .parent4 {
+          height: 109rem;
+        }
+       
+        .div1 {
+          position: absolute;
+          right: 0;
+          top: 31.5rem;
+        }
+        .image3 {
+          display: none;
+        }
+        .div1 {
+          width: calc(8 / 20 * 100vw);
+        }
+        .div13 {
+          width: calc(10 / 20 * 100vw);
+        }
+        .h24 {
+          margin-left: calc(2 / 20 *100vw);
+        }
+
+      }
+
       .parent5 {
         display: flex;
         align-items: flex-start;
@@ -359,6 +522,19 @@ q:before, q:after {
         position: sticky;
         top: 0%;
       }
+      @media (max-width: 768px) {
+        .parent5 {
+          height: 91rem;
+
+        }
+        .div2 {
+          display: none;
+        }
+
+        .div14 {
+          width: calc(10 / 20 * 100vw);
+        }
+      }
 
       .parent6 {
         display: flex;
@@ -375,23 +551,38 @@ q:before, q:after {
       
       .div3 {
         position: absolute;
-        left: calc(8.5 / 20 * 100vw);
+        left: calc(8.6 / 20 * 100vw);
       }
       .img4 {
         width: 100%;
       }
 
       #margin-h2 {
-        margin-top: 10.5rem;
+        margin-top: 6rem;
       }
       .div4 {
         position: absolute;
         right: 2rem;
-        top: 50rem;
+        top: 53rem;
       }     
 
       .p1 {
         margin: 0%;
+      }
+      .div15 {
+        display: none;
+        width: calc(20 / 20 * 100vw);
+      }
+
+      @media (max-width: 768px){
+        .div15 {
+          display: block;
+        }
+        .parent6 {
+          margin-left: 0;
+          margin-right: 0;
+
+        }
       }
 
       .parent7 {
@@ -415,43 +606,7 @@ q:before, q:after {
 
       }      
         
-      nav {
-        /* color: white; */
-        font-size: 3rem;
-        margin: 0%;
-        
-      }
-
-      body {
-        background: white;
-        color: rgb(153, 153, 153);
-        font-family: 'Gilroy_Light';
-        font-size: 2.8rem;
-        margin: 0;
-                   
-      }
-            
-      h2 {
-        color: rgb(204, 138, 125);
-        /* font-size: 6.2rem; */
-        font-size: 9.4rem;
-        margin-bottom: 6rem;
-        margin-top: 0%;
-        line-height: 9rem;
-      }
-      h3 {
-        margin-top: 0%;
-        margin-bottom: 3.7rem;
-        font-size: 4rem;
-      }
-
-      .ul {
-        background: white;
-        color: rgb(153, 153, 153);
-        font-size: 3rem;
-        max-width: 80rem;
-        margin: 0;
-      }
+      
 
       footer {
         background-color: rgb(204, 138, 125);
@@ -470,6 +625,8 @@ q:before, q:after {
       }
       .img5 {
         width: 100%;
+        position: relative;
+        top: 3.5rem;
       }
       .img6 {
         position: absolute;
