@@ -55,14 +55,6 @@ q:before, q:after {
         font-style: normal;
         font-display: swap;
       }
-      /* @font-face {
-        font-family: 'Gilroy_Light';
-        src: url('fonts/Gilroy_Light.woff'); format('woff')
-        src: url('fonts/Gilroy_Light.woff2'); format('woff2')
-        font-weight: 300;
-        font-size: 3rem;
-        line-height: 3.5rem;
-      } */
 
       .col-0 {
         width: calc(0.5 / 20 * 100vw);
@@ -139,8 +131,17 @@ q:before, q:after {
         margin: 0%;
         
       }
+      .a1 {
+        position: absolute;
+        right: 5rem;
+        top: 2rem;
+        width: 20rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+      }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         nav {
           font-size: 4rem;
         }
@@ -168,7 +169,7 @@ q:before, q:after {
         line-height: 10rem;
       }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         h2 {
           font-size: 12rem;
           margin-bottom: 15rem;
@@ -182,7 +183,7 @@ q:before, q:after {
         font-size: 4rem;
       }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         h3 {
           font-size: 6rem;
           margin-bottom: 7rem;
@@ -223,21 +224,24 @@ q:before, q:after {
         margin: 0%;
         width: 100rem;
         height: 40rem;
+        mix-blend-mode: multiply;
         
       }
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .parent {
           height: 140rem;
         }
       }
       
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .div19 {
           font-size: 100rem;
           line-height: 75rem;
           position: absolute;
           left: 3.5rem;
-          color: #F5A899;
+          /* color: #F5A899; */
+          color:rgb(204, 138, 125);
+          mix-blend-mode: multiply;
           
         }
         .parent {
@@ -274,7 +278,7 @@ q:before, q:after {
       .section {
         height: 15vh;
       }
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         h1 {
           font-size: 45rem;
         }
@@ -292,7 +296,7 @@ q:before, q:after {
         z-index: 100;     
         
       }
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .child2 {
           display: none;
         }
@@ -315,7 +319,7 @@ q:before, q:after {
       }
 
      
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .child2 {
           margin: 0 4rem 0 0;
         }
@@ -394,7 +398,7 @@ q:before, q:after {
       }
       
 
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
 
         .child4 {
           position: absolute;
@@ -420,7 +424,7 @@ q:before, q:after {
       }
 
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .parent2 {
           height: 118rem;
           
@@ -495,7 +499,7 @@ q:before, q:after {
         justify-content: flex-start;
       }
 
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .image5 {
           /* position: relative;
           top: 50rem; */
@@ -540,7 +544,7 @@ q:before, q:after {
         }
       }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .parent3 {
           height: 100rem;
 
@@ -614,7 +618,7 @@ q:before, q:after {
         display: none;
       }
      
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .parent4 {
           margin-top: 25rem;
           height: 128rem;
@@ -654,7 +658,7 @@ q:before, q:after {
         }
       }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .parent4 {
           height: 109rem;
         }
@@ -711,7 +715,7 @@ q:before, q:after {
         top: 0%;
       }
 
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .div24 {
           width: 100%;
         }
@@ -724,7 +728,7 @@ q:before, q:after {
 
         }
       }
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .parent5 {
           height: 91rem;
 
@@ -783,7 +787,7 @@ q:before, q:after {
         height: 100%;
       }
       
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .parent6 {
           margin: 0;
           height: 217rem;
@@ -808,7 +812,7 @@ q:before, q:after {
         } 
       }
 
-      @media (min-width: 376px) and (max-width: 768px){
+      @media (min-width: 415px) and (max-width: 768px){
         .div15 {
           display: block;
         }
@@ -894,11 +898,11 @@ q:before, q:after {
       }
       
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         
       }
 
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .parent7 {
           display: flex;
           align-items: center;
@@ -953,6 +957,7 @@ q:before, q:after {
         margin-bottom: 0;
         position: relative;
         color: white;
+        z-index: 1000;
       }
       .img5 {
         width: 100%;
@@ -1021,7 +1026,7 @@ q:before, q:after {
         text-decoration: underline;
       }
 
-      @media (max-width: 376px) {
+      @media (max-width: 415px) {
         .footer {
           height: 100vh;
           font-size: 7rem;
@@ -1053,7 +1058,7 @@ q:before, q:after {
   
       }
 
-      @media (min-width: 376px) and (max-width: 768px) {
+      @media (min-width: 415px) and (max-width: 768px) {
         .footer {
           height: 100rem;
         }
