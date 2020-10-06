@@ -130,6 +130,8 @@ q:before, q:after {
       .col-20 {
         width: calc(20 / 20 * 100vw);
       }
+      
+    
 
       nav {
         /* color: white; */
@@ -138,7 +140,7 @@ q:before, q:after {
         
       }
 
-      @media (max-width: 768px) {
+      @media (min-width: 376px) and (max-width: 768px) {
         nav {
           font-size: 4rem;
         }
@@ -152,6 +154,10 @@ q:before, q:after {
         margin: 0;
                    
       }
+      .div18 {
+        display: none;
+       }
+      
             
       h2 {
         color: rgb(204, 138, 125);
@@ -162,10 +168,10 @@ q:before, q:after {
         line-height: 10rem;
       }
 
-      @media (max-width: 768px) {
+      @media (min-width: 376px) and (max-width: 768px) {
         h2 {
           font-size: 12rem;
-          margin-bottom: 10rem;
+          margin-bottom: 15rem;
           line-height: 13rem;
         }
       }
@@ -176,7 +182,7 @@ q:before, q:after {
         font-size: 4rem;
       }
 
-      @media (max-width: 768px) {
+      @media (min-width: 376px) and (max-width: 768px) {
         h3 {
           font-size: 6rem;
           margin-bottom: 7rem;
@@ -195,14 +201,12 @@ q:before, q:after {
         padding: 0;
         display: flex;
         height: 100vh;
-        /* align-items: flex-end;
-        justify-content: flex-end; */
         align-items: center;
         justify-content: center;
         flex-direction: row;
         background-image: url("photos/1920.jpg");
         background-repeat: no-repeat;
-        /* background-size: cover; */
+        background-size: cover;
         background-position: center;
         position: relative;
         margin: 0;
@@ -220,7 +224,43 @@ q:before, q:after {
         width: 100rem;
         height: 40rem;
         
-      } 
+      }
+      @media (min-width: 376px) and (max-width: 768px) {
+        .parent {
+          height: 140rem;
+        }
+      }
+      
+      @media (max-width: 376px) {
+        .div19 {
+          font-size: 100rem;
+          line-height: 75rem;
+          position: absolute;
+          left: 3.5rem;
+          color: #F5A899;
+          
+        }
+        .parent {
+          background-image: url("photos/главстраница\ моб.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 85vh;
+        }
+        .div18 {
+          display: block;
+
+        }
+        .div21 {
+          display: block;
+          width: 100%;
+          position: relative;
+        }
+        .img8 {
+          width: 100%;
+        }
+      }
+
+      
       h1 {
         color:rgb(204, 138, 125);
         font-family: 'Redaction';
@@ -231,7 +271,10 @@ q:before, q:after {
         letter-spacing: 0.05em;
         text-transform: uppercase;
       }
-      @media (max-width: 768px) {
+      .section {
+        height: 15vh;
+      }
+      @media (min-width: 376px) and (max-width: 768px) {
         h1 {
           font-size: 45rem;
         }
@@ -249,14 +292,38 @@ q:before, q:after {
         z-index: 100;     
         
       }
-      @media (max-width: 768px) {
+      @media (max-width: 376px) {
+        .child2 {
+          display: none;
+        }
+        .nav {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          position: fixed; 
+          right: 3rem;
+          top: 4rem;
+          width: 20rem;
+          height: 20rem;
+          list-style: none;
+          z-index: 1000;     
+        }
+      
+        .div20{
+          display: none;
+        }
+      }
+
+     
+      @media (min-width: 376px) and (max-width: 768px) {
         .child2 {
           margin: 0 4rem 0 0;
         }
       }
-      .colorwhite {
-        color: white;
-      }
+
+      
+
+      
 
       .li1 + .li1 {
         margin: 0;
@@ -325,11 +392,38 @@ q:before, q:after {
       .image7 {
         width: 100%;
       }
+      
+
+      @media (max-width: 376px) {
+
+        .child4 {
+          position: absolute;
+          top: 70rem;
+        }
+        .col-77 {
+          width: 100%;
+        }
+        p {
+          font-size: 6rem;
+        }
+        .parent2 {
+          margin-bottom: 15rem;
+          height: 80rem;
+          margin-top: 25rem;
+          margin-left: 6rem;
+          margin-right: 5rem;
+        }
+        .div10 {
+          display: none;
+        }
+        
+      }
 
 
-      @media (max-width: 768px) {
+      @media (min-width: 376px) and (max-width: 768px) {
         .parent2 {
           height: 118rem;
+          
           
         }
 
@@ -379,7 +473,7 @@ q:before, q:after {
      
       .h33 {
         position: absolute;
-        top: 16rem;
+        /* top: 16rem; */
         right: 4rem;
       }
       
@@ -394,7 +488,59 @@ q:before, q:after {
         right: 4.3rem;
       }
 
-      @media (max-width: 768px) {
+      .div28 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+
+      @media (max-width: 376px) {
+        .image5 {
+          /* position: relative;
+          top: 50rem; */
+          width: 100%;
+
+        }
+        h3 {
+          font-size: 8.5rem;
+        }
+        h2 {
+          font-size: 18rem;
+          margin-bottom: 15rem;
+          line-height: 19rem;
+        }
+        .div11 {
+          width: 100%;
+        }
+        .parent3 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          height: 178rem;
+          margin-top: 25rem;
+          margin-bottom: 15rem;
+          margin-left: 6rem;
+        }
+        .h33 {
+          position: absolute;
+          top: 85rem;
+          left: 0;
+          width: 70%;
+        }
+        .p {
+          position: absolute;
+          width: 80%;
+          top: 140rem;
+          left: 0;
+        }
+        .h21{
+          /* margin-bottom: 15rem; */
+        }
+      }
+
+      @media (min-width: 376px) and (max-width: 768px) {
         .parent3 {
           height: 100rem;
 
@@ -414,18 +560,18 @@ q:before, q:after {
           left: 0;
           bottom: 3rem;
         }
-        .h22 {
-          margin-left: calc(2 / 20 * 100vw);
-        }
 
         .h33 {
           position: absolute;
-          top: 23rem;
+          /* top: 23rem; */
           right: 25rem;
         }
 
         .p3 {
           margin-bottom: 7rem;
+        }
+        h3 {
+          width: 50rem;
         }
 
       }
@@ -464,8 +610,51 @@ q:before, q:after {
         position: absolute;
         bottom: 0%;
       }
+      .div25 {
+        display: none;
+      }
+     
+      @media (max-width: 376px) {
+        .parent4 {
+          margin-top: 25rem;
+          height: 128rem;
+          margin-bottom: 15rem;
+          margin-left: 6rem;
+        }
+        .ul {
+          font-size: 6rem;
+          max-width: 100%;
+        }
+        .div13 {
+          width: 100%;
+        }
+        .li2 + .li2 {
+          margin-top: 4rem;
+        }
 
-      @media (max-width: 768px) {
+        .image2 {
+          width: 50%;
+          position: relative;
+          
+        }
+        .div23 {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+
+        .image3 {
+          max-width: 50%;
+          position: relative;
+          
+        }
+        .nomob {
+          display: none;
+        }
+      }
+
+      @media (min-width: 376px) and (max-width: 768px) {
         .parent4 {
           height: 109rem;
         }
@@ -484,10 +673,9 @@ q:before, q:after {
         .div13 {
           width: calc(10 / 20 * 100vw);
         }
-        .h24 {
-          margin-left: calc(2 / 20 *100vw);
+        .div25 {
+          display: block;
         }
-
       }
 
       .parent5 {
@@ -514,7 +702,7 @@ q:before, q:after {
 
       .div2 {
         position: relative;
-        height: 62rem;
+        height: 63rem;
       }
 
       .img3 {
@@ -522,7 +710,21 @@ q:before, q:after {
         position: sticky;
         top: 0%;
       }
-      @media (max-width: 768px) {
+
+      @media (max-width: 376px) {
+        .div24 {
+          width: 100%;
+        }
+        .parent5 {
+          height: 53rem;
+          margin-bottom: 15rem;
+        }
+        .px471 {
+          height: 180.5rem;
+
+        }
+      }
+      @media (min-width: 376px) and (max-width: 768px) {
         .parent5 {
           height: 91rem;
 
@@ -533,6 +735,12 @@ q:before, q:after {
 
         .div14 {
           width: calc(10 / 20 * 100vw);
+        }
+        .div24 {
+          width: calc(6 /20 * 100vw);
+        }
+        .p4 {
+          line-height: 4.5rem;
         }
       }
 
@@ -562,7 +770,7 @@ q:before, q:after {
       }
       .div4 {
         position: absolute;
-        right: 2rem;
+        right: 0;
         top: 53rem;
       }     
 
@@ -572,41 +780,164 @@ q:before, q:after {
       .div15 {
         display: none;
         width: calc(20 / 20 * 100vw);
+        height: 100%;
+      }
+      
+      @media (max-width: 376px) {
+        .parent6 {
+          margin: 0;
+          height: 217rem;
+        }
+        .div15 {
+          display: block;
+          width: 100%;
+        }
+        .img7 {
+          width: 100%;
+        }
+        .div3 {
+          width: calc(19 / 20 * 100vw);
+          position: absolute;
+          left: calc(0.5 / 20 * 100vw);
+        }
+        .div4 {
+          position: absolute;
+          right: 0;
+          top: 180rem;
+          color: white;
+        } 
       }
 
-      @media (max-width: 768px){
+      @media (min-width: 376px) and (max-width: 768px){
         .div15 {
           display: block;
         }
         .parent6 {
           margin-left: 0;
           margin-right: 0;
-
+          height: 217rem;
         }
+        .div3 {
+          width: calc(19 / 20 * 100vw);
+          position: absolute;
+          left: calc(0.5 / 20 * 100vw);
+        }
+        #margin-h2 {
+          font-size: 13rem;
+          line-height: 14rem;
+        }
+        .div4 {
+          color: white;
+          position: absolute;
+          right: 0rem;
+          top: 55rem;
+        }
+        .img7 {
+          width: 100%;
+        }
+        
       }
-
+           
+        
       .parent7 {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: row;
-        height: 100vh;
         margin-left: 4rem;
         margin-right: 4rem;
         margin-top: 20rem;
         margin-bottom: 0;
+        height: 54rem;
         position: relative;
-        max-width: 144rem;
-        overflow: auto;
       }
-      .image4 {
-        max-height: 100%;
-        /* width: 544px;
-        height: 606px; */
-
-      }      
+      .image9 {
+        position: relative;
         
+      }
       
+      .image4{
+        width: 100%;
+        height: 54rem;
+        position: absolute;
+        top: 0;
+      }
+
+   
+
+      .parent8 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 3.5rem;
+        margin-bottom: 0;
+        height: 54rem;
+        position: relative;
+      }
+      .parent9 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 3.5rem;
+        margin-bottom: 0;
+        height: 100rem;
+        position: relative;
+      }
+      .div27 {
+        display: none;
+      }
+      
+
+      @media (min-width: 376px) and (max-width: 768px) {
+        
+      }
+
+      @media (max-width: 376px) {
+        .parent7 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          height: 90rem;
+          margin-left: 4rem;
+          margin-right: 4rem;
+          margin-top: 20rem;
+          margin-bottom: 0;
+          position: relative;
+          
+          
+        }
+        .image9 {
+          height: 100%;
+        }
+        .image9 + .image9 {
+          margin-left: calc(0.5 / 20 * 100vw);
+        }
+        .image4 {
+          height: 100%;
+        }
+        .parent8 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          height: 90rem;
+          margin-left: 4rem;
+          margin-right: 4rem;
+          margin-top: 7rem;
+          margin-bottom: 0;
+          position: relative;
+        }
+        .div20 {
+          display: none;
+        }
+      }
 
       footer {
         background-color: rgb(204, 138, 125);
@@ -689,3 +1020,81 @@ q:before, q:after {
       a:hover {
         text-decoration: underline;
       }
+
+      @media (max-width: 376px) {
+        .footer {
+          height: 100vh;
+          font-size: 7rem;
+        }
+        .div9 {
+          max-width: calc(1.5 / 20 * 100vw);
+          max-height: calc(1.5 / 20 * 100vw);
+        }
+        .div5 {
+          margin-bottom: 10rem;
+        }
+        .img6 {
+          margin-bottom: 10rem;
+          margin-right: 8rem;
+        }
+        .div8 + .div8 {
+          margin-left: 2rem;
+         
+        }
+        .div8 {
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+        .div16 {
+          width: calc(15 / 20 * 100vw);
+          position: absolute;
+          top: 35rem;
+        }
+  
+      }
+
+      @media (min-width: 376px) and (max-width: 768px) {
+        .footer {
+          height: 100rem;
+        }
+
+        .h23 {
+
+        }
+        .div7 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: row;
+        }
+        .div16 {
+          width: calc(10 / 20 * 100vw);
+          position: absolute;
+          left: rem;
+          top: 25rem;
+        }
+        .div5 {
+          position: absolute;
+          bottom: 10rem;
+        }
+        .div9 {
+          max-width: calc(0.8 / 20 * 100vw);
+          max-height: calc(0.8 / 20 * 100vw);
+        }
+
+        .img6 {
+          position: absolute;
+          bottom: 5.5rem;
+          width: 20rem;
+          height: 15rem;
+          display: flex;
+          /* flex-direction: row; */
+          align-items: center;
+          justify-content: center;
+        }
+        /* .img7 {
+          position: absolute;
+          bottom: 0;
+        } */
+      }
+      
