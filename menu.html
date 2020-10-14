@@ -121,7 +121,7 @@
 
     html {
       font-size: calc(10 / 1440 * 100vw);
-      height: 100vh;
+
     }
 
 
@@ -131,6 +131,7 @@
       font-size: 15rem;
       list-style: none;
       font-family: 'Noto Sans', sans-serif;
+      max-height: 100vh;
 
     }
 
@@ -183,7 +184,7 @@
       display: flex;
       flex-direction: row;
       position: relative;
-      top: 80vh;
+      top: 60vh;
       left: 16rem;
     }
 
@@ -196,10 +197,14 @@
     .x3+.x3 {
       margin-left: 5rem;
     }
+
+    .x4 {
+      max-height: 100vh;
+    }
   </style>
 </head>
 
-<body>
+<body class="x4">
   <div>
     <a href="index.html" class="a">
       <img src="assets/photos/menu 2.svg" alt="menu">
