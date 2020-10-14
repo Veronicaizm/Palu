@@ -1,112 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
-    <style>
-        html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	/* margin: 0; */
-	/* padding: 0; */
-	/* border: 0; */
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <style>
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      /* margin: 0; */
+      /* padding: 0; */
+      /* border: 0; */
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
 
-      *,
-      *:after,
-      *:before {
-        box-sizing: border-box;
-      }
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
 
-      
-      html {
-        font-size: calc(10 / 1440 * 100vw);
-      }
+    *,
+    *:after,
+    *:before {
+      box-sizing: border-box;
+    }
 
-      
-      body {
-          color: white;
-          background-color:  rgb(204, 138, 125);
-          font-size: 15rem;
-          list-style: none;
-          font-family: 'Noto Sans', sans-serif;
-      }
-    
-      .li1 + .li1 {
-        margin: 0;
-      }
 
-      .li1 {
-        transform: color 0.8s ease;
-        padding: 0;
-        
-      }
-      .li1:hover {
-        /* color: black; */
-        /* color: rgb(204, 138, 125); */
-        text-decoration: none;
-        color: #C16D5D ;
-      }
+    html {
+      font-size: calc(10 / 1440 * 100vw);
+      height: 100vh;
+    }
 
-      .li1:active {
-        transform: scale(1.1);
-        text-decoration: underline;
-      }
-      ul, ol {
-        list-style: none;
-      }
-      .a {
-        position: absolute;
-        right: 6rem;
-        top: 6rem;
-        width: 20rem;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-      }
-      nav {
-        margin-top: 50rem;
-      }
-      div {
-        height: 100vh;
-      }
- 
-    </style>
+
+    body {
+      color: white;
+      background-color: rgb(204, 138, 125);
+      font-size: 15rem;
+      list-style: none;
+      font-family: 'Noto Sans', sans-serif;
+
+    }
+
+    .li1+.li1 {
+      margin: 0;
+    }
+
+    .li1 {
+      transform: color 0.8s ease;
+      padding: 0;
+
+    }
+
+    .li1:hover {
+      /* color: black; */
+      /* color: rgb(204, 138, 125); */
+      text-decoration: none;
+      color: #C16D5D;
+    }
+
+    .li1:active {
+      transform: scale(1.1);
+      text-decoration: underline;
+    }
+
+    ul,
+    ol {
+      list-style: none;
+    }
+
+    .a {
+      position: absolute;
+      right: 6rem;
+      top: 6rem;
+      width: 20rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    nav {
+      margin-top: 50rem;
+    }
+
+    div {
+      height: 100vh;
+    }
+
+    .x {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 80vh;
+      left: 16rem;
+    }
+
+    .x2 {
+      display: block;
+      width: 20rem;
+      height: 20rem;
+    }
+
+    .x3+.x3 {
+      margin-left: 5rem;
+    }
+  </style>
 </head>
+
 <body>
-    <div>
-        <a href="project.html" class="a">
-            <img src="assets/photos/menu 2.svg" alt="menu">
-        </a>
-        <nav>
-            <ul>
-              <li class="li1"><a href="project.html#онас">О нас</a></li>        
-              <li class="li1"><a href="project.html#услуги">Услуги</a></li>
-              <li class="li1"><a href="project.html#контакты">Контакты</a></li>
-            </ul> 
-          </nav>
+  <div>
+    <a href="index.html" class="a">
+      <img src="assets/photos/menu 2.svg" alt="menu">
+    </a>
+    <nav>
+      <ul>
+        <li class="li1"><a href="project.html#онас">О нас</a></li>
+        <li class="li1"><a href="project.html#услуги">Услуги</a></li>
+        <li class="li1"><a href="project.html#контакты">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="x">
+      <a href="tel:+700000000" class="x2 x3">
+        <img src="assets/photos/Path.png" alt="image">
+      </a>
+      <a href="https://www.instagram.com/youpalu/" target="_blank" el="noopener noreferrer" class="x2 x3">
+        <img src="assets/photos/инст.png" alt="image" width="40">
+      </a>
     </div>
-   
+  </div>
+
 </body>
+
 </html>
