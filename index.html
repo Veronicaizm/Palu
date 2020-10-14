@@ -293,41 +293,6 @@
       </a>
     </article>
   </footer>
-  <script>
-    function handleIntersectionChange(entries) {
-      entries.forEach(function (entry) {
-        if (entry.intersectionRatio > 0.5) {
-          entry.target.classList.add("visible");
-        } else {
-          entry.target.classList.remove("visible");
-        }
-      });
-    }
-
-    var options = {
-      rootMargin: "0px",
-      threshold: [0, 0.25, 0.5, 0.75, 1],
-    };
-
-    var observer = new IntersectionObserver(
-      handleIntersectionChange,
-      options
-    );
-
-    document.querySelectorAll(".li1").forEach(function (li1) {
-      observer.observe(li1);
-    });
-
-    document
-      .querySelector(".li1")
-      .addEventListener("click", function () {
-        var element = document.querySelector(".li1");
-        element.scrollIntoView({
-          behavior: "smooth",
-        });
-
-      });
-  </script>
 </body>
 
 </html>
