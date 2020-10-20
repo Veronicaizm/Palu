@@ -324,7 +324,7 @@ q:before, q:after {
      
       @media (min-width: 415px) and (max-width: 768px) {
         .child2 {
-          margin: 0 4rem 0 0;
+          margin: 4rem 4rem 0 0;
         }
       }
 
@@ -572,7 +572,7 @@ q:before, q:after {
           align-items: flex-start;
           justify-content: flex-start;
           flex-direction: column;
-          height: 148rem;
+          height: 171rem;
           margin-top: 25rem;
           margin-bottom: 15rem;
           margin-left: 6rem;
@@ -593,12 +593,16 @@ q:before, q:after {
           border-top: 0.5rem solid rgb(153, 153, 153);
           margin-right: calc(2 / 20 * 100vw);
         }
+
+        .margin1 {
+          margin-top: 2.5rem;
+        }
         
       }
 
       @media (min-width: 415px) and (max-width: 768px) {
         .parent3 {
-          height: 100rem;
+          height: 110rem;
 
         }
         
@@ -846,6 +850,10 @@ q:before, q:after {
         width: calc(20 / 20 * 100vw);
         height: 100%;
       }
+
+      .desctop-none {
+        display: none;
+      }
       
       @media (max-width: 415px) {
         .parent6 {
@@ -877,9 +885,9 @@ q:before, q:after {
       }
 
       @media (min-width: 415px) and (max-width: 768px){
-        .div15 {
+        /* .div15 {
           display: block;
-        }
+        } */
         .parent6 {
           margin-left: 0;
           margin-right: 0;
@@ -893,6 +901,7 @@ q:before, q:after {
         #margin-h2 {
           font-size: 13rem;
           line-height: 14rem;
+          margin-top: 8rem;
         }
         .div4 {
           color: white;
@@ -903,6 +912,12 @@ q:before, q:after {
         .img7 {
           width: 100%;
         }
+
+        .desctop-none {
+          display: block;
+        }
+
+        
         
       }
            
